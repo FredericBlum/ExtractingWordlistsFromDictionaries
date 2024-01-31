@@ -53,7 +53,6 @@ cldfbench lexibank.makecldf lexibank_hydeamahuaca.py --concepticon-version=v3.1.
 - **Inventory size (avg):** 36.00
 
 
-
 ## CLDF Datasets
 
 The following CLDF datasets are available in [cldf](cldf):
