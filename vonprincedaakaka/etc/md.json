@@ -1,0 +1,45 @@
+{
+    "authors": [
+        {
+            "name": "Kilu von Prince",
+            "affiliation": "Humboldt-Universität zu Berlin, Philosophische Fakultät II, Institut für deutsche Sprache und Linguistik, Unter den Linden 6, 10099 Berlin",
+            "email": "kilu.von.prince@hu-berlin.de",
+            "url": "http://kiluvonprince.de"
+        }
+    ],
+    "doi": "10.5281/zenodo.3067380",
+    "language": {
+        "name": "Daakaka",
+        "isocode": "bpa",
+        "glottocode": "daka1243"
+    },
+    "properties": {
+        "marker_map": {
+            "zcom2": "zcom1"
+        },
+        "entry_map": {
+            "rd": "Reduplicated_Form",
+            "lc": "Lexical_Citation_Form",
+            "ue": "Usage",
+            "es": "Etymological_Source",
+            "ee": "Encyclopedic_Information",
+            "pd": "Paradigm",
+            "1s": "1st_Person_Singular",
+            "2s": "2nd_Person_Singular",
+            "3s": "3rd_Person_Singular",
+            "3d": "3rd_Person_Dual",
+            "dv": "Dialectal_Variant"
+        },
+        "sense_map": {
+            "ge": "Gloss",
+            "dn": "alt_translation1"
+        },
+        "metalanguages": {
+            "gxx": "Bislama"
+        },
+        "labels": {},
+        "custom_fields": [],
+        "second_tab": ["Bislama", "Etymological Source", "Encyclopedic Information"],
+        "image": {"copyright": "Copyright Tio Bang"}
+    }
+}

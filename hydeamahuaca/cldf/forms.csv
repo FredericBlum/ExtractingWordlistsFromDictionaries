@@ -1,0 +1,152 @@
+ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,Loan,Graphemes,Profile,Meaning,Sense_ID,Entry_ID
+Amahuaca-1_all-1,,Amahuaca,1_all,quíyoo,quíyoo,q u í j oː,,Hyde1980,,,^ q u í y oo $,default,todo,todo-1,1997-quiyoo
+Amahuaca-2_ash-1,,Amahuaca,2_ash,córo,córo,k ó r o,,Hyde1980,,,^ c ó r o $,default,ceniza,ceniza-1,449-coro
+Amahuaca-2_ash-2,,Amahuaca,2_ash,chíhimapó,chíhimapó,tʃ í h i m a p ó,,Hyde1980,,,^ ch í h i m a p ó $,default,ceniza,ceniza-2,450-chihimapo
+Amahuaca-3_bark-1,,Amahuaca,3_bark,ráxvii,ráxvii,r á x v iː,,Hyde1980,,,^ r á x v ii $,default,corteza,corteza-1,552-raxvii
+Amahuaca-4_belly-1,,Amahuaca,4_belly,póco,póco,p ó k o,,Hyde1980,,,^ p ó c o $,default,barriga,barriga-1,272-poco
+Amahuaca-4_belly-2,,Amahuaca,4_belly,chinxantó,chinxantó,tʃ i n x a n t ó,,Hyde1980,,,^ ch i n x a n t ó $,default,vientre,vientre-1,2104-chinxanto
+Amahuaca-4_belly-3,,Amahuaca,4_belly,xánquin,xánquin,x á n q u i n,,Hyde1980,,,^ x á n q u i n $,default,vientre,vientre-2,2105-xanquin
+Amahuaca-5_big-1,,Amahuaca,5_big,tóha,tóha,t ó h a,,Hyde1980,,,^ t óh a $,default,grande,grande-1,968-toha
+Amahuaca-6_bird-1,,Amahuaca,6_bird,póhiyá,póhiyá,p ó h i j á,,Hyde1980,,,^ p óh i y á $,default,ave,ave-1,231-pohiya
+Amahuaca-6_bird-2,,Amahuaca,6_bird,hítzaa,hítzaa,h í t z aː,,Hyde1980,,,^ h í t z aa $,default,pájaro,pajaro-1,1435-hitzaa
+Amahuaca-7_bite-1,,Amahuaca,7_bite,chancánquin,chancánquin,tʃ a n k á n q u i n,,Hyde1980,,,^ ch a n c á n q u i n $,default,morder,morder-1,1321-chancanquin
+Amahuaca-7_bite-2,,Amahuaca,7_bite,nátux quín,nátux quín,n á t u x + q u í n,,Hyde1980,,,^ n á t u x + q u í n $,default,morder,morder-2,1322-natuxquin
+Amahuaca-7_bite-3,,Amahuaca,7_bite,píquin,píquin,p í q u i n,,Hyde1980,,,^ p í q u i n $,default,morder,morder-3,1323-piquin
+Amahuaca-7_bite-4,,Amahuaca,7_bite,túxaquín,túxaquín,t ú x a q u í n,,Hyde1980,,,^ t ú x a q u í n $,default,morder,morder-4,1324-tuxaquin
+Amahuaca-8_black-1,,Amahuaca,8_black,cháho,cháho,tʃ á h o,,Hyde1980,,,^ ch á h o $,default,negro; sucio,negro-1,1363-chaho
+Amahuaca-8_black-2,,Amahuaca,8_black,cúchux,cúchux,k ú tʃ u x,,Hyde1980,,,^ c ú ch u x $,default,negro,negro-2,1364-cuchux
+Amahuaca-9_blood-1,,Amahuaca,9_blood,jimí,jimí,j i m í,,Hyde1980,,,^ j i m í $,default,sangre,sangre-1,1807-jimi
+Amahuaca-10_bone-1,,Amahuaca,10_bone,xaó,xaó,x a ó,,Hyde1980,,,^ x a ó $,default,hueso,hueso-1,1068-xao
+Amahuaca-14_cloud-1,,Amahuaca,14_cloud,nai-cóhin,nai-cóhin,n a i + k ó h i n,,Hyde1980,,,^ n a i - c óh i n $,default,nube,nube-1,1378-naicohin
+Amahuaca-15_cold-1,,Amahuaca,15_cold,matzí  hacer frío durante algunos,matzí hacer frío durante algunos,m a t z í + h a k e r + f r í o + d u r a n t e + a l g u n o s,,Hyde1980,,,^ m a t z í + h a c e r + f r í o + d u r a n t e + a l g u n o s $,default,frío,frio-1,912-matzihacerfriodurantealgunos
+Amahuaca-16_come-1,,Amahuaca,16_come,jóhi,jóhi,j ó h i,,Hyde1980,,,^ j óh i $,default,venir,venir-1,2082-johi
+Amahuaca-16_come-2,,Amahuaca,16_come,jóvanhí,jóvanhí,j ó v a n h í,,Hyde1980,,,^ j ó v a nh í $,default,salir; venir,venir-2,2083-jovanhi
+Amahuaca-16_come-3,,Amahuaca,16_come,shínanvúhqui,shínanvúhqui,ʃ í n a n v ú h q u i,,Hyde1980,,,^ sh í n a n v ú h q u i $,default,venir,venir-3,2084-shinanvuhqui
+Amahuaca-16_come-4,,Amahuaca,16_come,vúhi,vúhi,v ú h i,,Hyde1980,,,^ v ú h i $,default,venir,venir-4,2085-vuhi
+Amahuaca-17_die-1,,Amahuaca,17_die,náhi,náhi,n á h i,,Hyde1980,,,^ n á h i $,default,morir,morir-1,1325-nahi
+Amahuaca-17_die-2,,Amahuaca,17_die,nócahí,nócahí,n ó k a h í,,Hyde1980,,,^ n ó c a h í $,default,morir,morir-2,1326-nocahi
+Amahuaca-17_die-3,,Amahuaca,17_die,rúzohí,rúzohí,r ú z o h í,,Hyde1980,,,^ r ú z o h í $,default,morir; terminar,morir-3,1327-ruzohi
+Amahuaca-17_die-4,,Amahuaca,17_die,coshtóóhca,coshtóóhca,k o ʃ t óː h k a,,Hyde1980,,,^ c o sh t óó h c a $,default,morir; saliva,morir-4,1328-coshtoohca
+Amahuaca-18_dog-1,,Amahuaca,18_dog,hinó,hinó,h i n ó,,Hyde1980,,,^ h i n ó $,default,perro; tigre,perro-1,1545-hino
+Amahuaca-19_drink-1,,Amahuaca,19_drink,háyaquín,háyaquín,h á j a q u í n,,Hyde1980,,,^ h á y a q u í n $,default,beber; tomar,beber-1,287-hayaquin
+Amahuaca-20_dry-1,,Amahuaca,20_dry,choshí,choshí,tʃ o ʃ í,,Hyde1980,,,^ ch o sh í $,default,seco,seco-1,1817-choshi
+Amahuaca-20_dry-2,,Amahuaca,20_dry,póto,póto,p ó t o,,Hyde1980,,,^ p ó t o $,default,polvo; seco,seco-2,1818-poto
+Amahuaca-20_dry-3,,Amahuaca,20_dry,táno,táno,t á n o,,Hyde1980,,,^ t á n o $,default,seco,seco-3,1819-tano
+Amahuaca-20_dry-4,,Amahuaca,20_dry,xána,xána,x á n a,,Hyde1980,,,^ x á n a $,default,seco,seco-4,1820-xana
+Amahuaca-21_ear-1,,Amahuaca,21_ear,pavínqui,pavínqui,p a v í n q u i,,Hyde1980,,,^ p a v í n q u i $,default,oreja,oreja-1,1405-pavinqui
+Amahuaca-22_earthsoil-1,,Amahuaca,22_earthsoil,maí,maí,m a í,,Hyde1980,,,^ m a í $,default,tierra,tierra-1,1977-mai
+Amahuaca-22_earthsoil-2,,Amahuaca,22_earthsoil,nutú,nutú,n u t ú,,Hyde1980,,,^ n u t ú $,default,día; luz; tierra,tierra-2,1978-nutu
+Amahuaca-23_eat-1,,Amahuaca,23_eat,cócoquín,cócoquín,k ó k o q u í n,,Hyde1980,,,^ c ó c o q u í n $,default,comer,comer-1,509-cocoquin
+Amahuaca-23_eat-2,,Amahuaca,23_eat,háqui,háqui,h á q u i,,Hyde1980,,,^ h á q u i $,default,hacer; comer; usar,comer-2,510-haqui
+Amahuaca-23_eat-3,,Amahuaca,23_eat,jírihí,jírihí,j í r i h í,,Hyde1980,,,^ j í r i h í $,default,comer,comer-3,511-jirihi
+Amahuaca-23_eat-4,,Amahuaca,23_eat,mócoquín,mócoquín,m ó k o q u í n,,Hyde1980,,,^ m ó c o q u í n $,default,comer,comer-4,512-mocoquin
+Amahuaca-23_eat-5,,Amahuaca,23_eat,náihí,náihí,n á i h í,,Hyde1980,,,^ n á i h í $,default,comer,comer-5,513-naihi
+Amahuaca-23_eat-6,,Amahuaca,23_eat,píquin,píquin,p í q u i n,,Hyde1980,,,^ p í q u i n $,default,comer,comer-6,514-piquin
+Amahuaca-24_egg-1,,Amahuaca,24_egg,vachí,vachí,v a tʃ í,,Hyde1980,,,^ v a ch í $,default,falda; huevo; mosquitero; pampanilla,huevo-1,1069-vachi
+Amahuaca-25_eye-1,,Amahuaca,25_eye,vúro,vúro,v ú r o,,Hyde1980,,,^ v ú r o $,default,ojo; semilla,ojo-1,1392-vuro
+Amahuaca-27_feather-1,,Amahuaca,27_feather,púhi,púhi,p ú h i,,Hyde1980,,,^ p ú h i $,default,hoja; pluma,pluma-1,1605-puhi
+Amahuaca-28_fire-1,,Amahuaca,28_fire,chíhi,chíhi,tʃ í h i,,Hyde1980,,,^ ch í h i $,default,candela; fuego,fuego-1,925-chihi
+Amahuaca-28_fire-2,,Amahuaca,28_fire,júruu,júruu,j ú r uː,,Hyde1980,,,^ j ú r uu $,default,fuego,fuego-2,926-juruu
+Amahuaca-53_fleshormeat-1,,Amahuaca,53_fleshormeat,námi,námi,n á m i,,Hyde1980,,,^ n á m i $,default,carne; pariente,carne-1,424-nami
+Amahuaca-31_foot-1,,Amahuaca,31_foot,táhu,táhu,t á h u,,Hyde1980,,,^ t á h u $,default,pie,pie-1,1562-tahu
+Amahuaca-32_full-1,,Amahuaca,32_full,vópa,vópa,v ó p a,,Hyde1980,,,^ v ó p a $,default,lleno,lleno-1,1201-vopa
+Amahuaca-32_full-2,,Amahuaca,32_full,yaní,yaní,j a n í,,Hyde1980,,,^ y a n í $,default,lleno; satisfecho,lleno-2,1202-yani
+Amahuaca-33_give-1,,Amahuaca,33_give,hínanquín,hínanquín,h í n a n q u í n,,Hyde1980,,,^ h í n a n q u í n $,default,dar,dar-1,652-hinanquin
+Amahuaca-33_give-2,,Amahuaca,33_give,humanquín,humanquín,h u m a n q u í n,,Hyde1980,,,^ h u m a n q u í n $,default,dar,dar-2,653-humanquin
+Amahuaca-34_good-1,,Amahuaca,34_good,sháraa,sháraa,ʃ á r aː,,Hyde1980,,,^ sh á r aa $,default,bonito; bueno,bueno-1,331-sharaa
+Amahuaca-34_good-2,,Amahuaca,34_good,shínanyá,shínanyá,ʃ í n a n j á,,Hyde1980,,,^ sh í n a n y á $,default,amable; bueno,bueno-2,332-shinanya
+Amahuaca-35_green-1,,Amahuaca,35_green,macó,macó,m a k ó,,Hyde1980,,,^ m a c ó $,default,tierno; verde,verde-1,2090-maco
+Amahuaca-35_green-2,,Amahuaca,35_green,mápax,mápax,m á p a x,,Hyde1980,,,^ m á p a x $,default,verde,verde-2,2091-mapax
+Amahuaca-35_green-3,,Amahuaca,35_green,xóó,xóó,x óː,,Hyde1980,,,^ x óó $,default,tierno; verde,verde-3,2092-xoo
+Amahuaca-35_green-4,,Amahuaca,35_green,xóvii,xóvii,x ó v iː,,Hyde1980,,,^ x ó v ii $,default,canal; hueco; tierno; verde,verde-4,2093-xovii
+Amahuaca-36_hair-1,,Amahuaca,36_hair,vóó,vóó,v óː,,Hyde1980,,,^ v óó $,default,cabello; pelo,pelo-1,1518-voo
+Amahuaca-36_hair-2,,Amahuaca,36_hair,píshcan-ránti,píshcan-ránti,p í ʃ k a n + r á n t i,,Hyde1980,,,^ p í sh c a n - r á n t i $,default,pelo,pelo-2,1519-pishcanranti
+Amahuaca-37_hand-1,,Amahuaca,37_hand,múcun,múcun,m ú k u n,,Hyde1980,,,^ m ú c u n $,default,dedos; mano,mano-1,1253-mucun
+Amahuaca-38_head-1,,Amahuaca,38_head,mápo,mápo,m á p o,,Hyde1980,,,^ m á p o $,default,cabeza,cabeza-1,344-mapo
+Amahuaca-39_hear-1,,Amahuaca,39_hear,níncaaquín,níncaaquín,n í n k aː q u í n,,Hyde1980,,,^ n í n c aa q u í n $,default,entender; escuchar; obedecer; oír,oir-1,1390-nincaaquin
+Amahuaca-40_heart-1,,Amahuaca,40_heart,jóvintí,jóvintí,j ó v i n t í,,Hyde1980,,,^ j ó v i n t í $,default,corazón,corazon-1,541-jovinti
+Amahuaca-41_hornanatomy-1,,Amahuaca,41_hornanatomy,manxo,manxo,m a n x o,,Hyde1980,,,^ m a n x o $,default,cuerno,cuerno-1,593-manxo
+Amahuaca-42_i-1,,Amahuaca,42_i,hún,hún,h ú n,,Hyde1980,,,^ h ú n $,default,yo,yo-1,2126-hun
+Amahuaca-43_kill-1,,Amahuaca,43_kill,hayánquin,hayánquin,h a j á n q u i n,,Hyde1980,,,^ h a y á n q u i n $,default,matar,matar-1,1275-hayanquin
+Amahuaca-43_kill-2,,Amahuaca,43_kill,rútuquín,rútuquín,r ú t u q u í n,,Hyde1980,,,^ r ú t u q u í n $,default,matar,matar-2,1276-rutuquin
+Amahuaca-44_knee-1,,Amahuaca,44_knee,rántoncó,rántoncó,r á n t o n k ó,,Hyde1980,,,^ r á n t o n c ó $,default,rodilla,rodilla-1,1756-rantonco
+Amahuaca-45_knowsomething-1,,Amahuaca,45_knowsomething,honanhí,honanhí,h o n a n h í,,Hyde1980,,,^ h o n a nh í $,default,saber,saber-1,1771-honanhi
+Amahuaca-46_leaf-1,,Amahuaca,46_leaf,púhi,púhi,p ú h i,,Hyde1980,,,^ p ú h i $,default,hoja; pluma,hoja-1,1041-puhi
+Amahuaca-48_liver-1,,Amahuaca,48_liver,tacá,tacá,t a k á,,Hyde1980,,,^ t a c á $,default,hígado,higado-1,1027-taca
+Amahuaca-49_long-1,,Amahuaca,49_long,chaíí,chaíí,tʃ a íː,,Hyde1980,,,^ ch a íí $,default,alto; largo,largo-1,1140-chaii
+Amahuaca-50_louse-1,,Amahuaca,50_louse,híya,híya,h í j a,,Hyde1980,,,^ h í y a $,default,me; mí; piojo; pulga,piojo-1,1584-hiya
+Amahuaca-51_man-1,,Amahuaca,51_man,jochí,jochí,j o tʃ í,,Hyde1980,,,^ j o ch í $,default,hermano mayor; hombre,hombre-1,1042-jochi
+Amahuaca-51_man-2,,Amahuaca,51_man,joní,joní,j o n í,,Hyde1980,,,^ j o n í $,default,hombre,hombre-2,1043-joni
+Amahuaca-52_many-1,,Amahuaca,52_many,cáhtin,cáhtin,k á h t i n,,Hyde1980,,,^ c á h t i n $,default,mucho,mucho-1,1338-cahtin
+Amahuaca-52_many-2,,Amahuaca,52_many,hicha,hicha,h i tʃ a,,Hyde1980,,,^ h i ch a $,default,mucho,mucho-2,1339-hicha
+Amahuaca-52_many-3,,Amahuaca,52_many,náha,náha,n á h a,,Hyde1980,,,^ n á h a $,default,bastante; mucho; nido,mucho-3,1340-naha
+Amahuaca-54_moon-1,,Amahuaca,54_moon,hóxu,hóxu,h ó x u,,Hyde1980,,,^ h ó x u $,default,luna; mes,luna-1,1188-hoxu
+Amahuaca-55_mountain-1,,Amahuaca,55_mountain,cárunnáha,cárunnáha,k á r u n á h a,,Hyde1980,,,^ c á r u nn á h a $,default,cerro,cerro-1,465-carunnaha
+Amahuaca-55_mountain-2,,Amahuaca,55_mountain,máchi,máchi,m á tʃ i,,Hyde1980,,,^ m á ch i $,default,cerro,cerro-2,466-machi
+Amahuaca-55_mountain-3,,Amahuaca,55_mountain,mánan,mánan,m á n a n,,Hyde1980,,,^ m á n a n $,default,cerro,cerro-3,467-manan
+Amahuaca-56_mouth-1,,Amahuaca,56_mouth,cúxaa,cúxaa,k ú x aː,,Hyde1980,,,^ c ú x aa $,default,boca; labio,boca-1,297-cuxaa
+Amahuaca-57_name-1,,Amahuaca,57_name,jánu,jánu,j á n u,,Hyde1980,,,^ j á n u $,default,aroma; nombre,nombre-1,1375-janu
+Amahuaca-58_neck-1,,Amahuaca,58_neck,túxo,túxo,t ú x o,,Hyde1980,,,^ t ú x o $,default,cuello,cuello-1,591-tuxo
+Amahuaca-59_new-1,,Amahuaca,59_new,vúnaa,vúnaa,v ú n aː,,Hyde1980,,,^ v ú n aa $,default,nuevo,nuevo-1,1383-vunaa
+Amahuaca-60_night-1,,Amahuaca,60_night,yámuu,yámuu,j á m uː,,Hyde1980,,,^ y á m uu $,default,noche,noche-1,1374-yamuu
+Amahuaca-61_nose-1,,Amahuaca,61_nose,rúquin,rúquin,r ú q u i n,,Hyde1980,,,^ r ú q u i n $,default,nariz,nariz-1,1358-ruquin
+Amahuaca-65_rainingorrain-1,,Amahuaca,65_rainingorrain,hovíhqui,hovíhqui,h o v í h q u i,,Hyde1980,,,^ h o v í h q u i $,default,llover,llover-1,1211-hovihqui
+Amahuaca-66_red-1,,Amahuaca,66_red,vínshin,vínshin,v í n ʃ i n,,Hyde1980,,,^ v í n sh i n $,default,rojo,rojo-1,1757-vinshin
+Amahuaca-68_root-1,,Amahuaca,68_root,tápon,tápon,t á p o n,,Hyde1980,,,^ t á p o n $,default,raíz,raiz-1,1678-tapon
+Amahuaca-69_round-1,,Amahuaca,69_round,múchii,múchii,m ú tʃ iː,,Hyde1980,,,^ m ú ch ii $,default,redondo,redondo-1,1705-muchii
+Amahuaca-69_round-2,,Amahuaca,69_round,tóro,tóro,t ó r o,,Hyde1980,,,^ t ó r o $,default,bajito; corto; redondo,redondo-2,1706-toro
+Amahuaca-70_sand-1,,Amahuaca,70_sand,míshpoo,míshpoo,m í ʃ p oː,,Hyde1980,,,^ m í sh p oo $,default,arena; playa,arena-1,182-mishpoo
+Amahuaca-71_say-1,,Amahuaca,71_say,yóhiquín,yóhiquín,j ó h i q u í n,,Hyde1980,,,^ y óh i q u í n $,default,decir,decir-1,662-yohiquin
+Amahuaca-72_see-1,,Amahuaca,72_see,hiinhí,hiinhí,h iː n h í,,Hyde1980,,,^ h ii nh í $,default,mirar; ver,ver-1,2087-hiinhi
+Amahuaca-73_seed-1,,Amahuaca,73_seed,juxú,juxú,j u x ú,,Hyde1980,,,^ j u x ú $,default,semilla,semilla-1,1832-juxu
+Amahuaca-73_seed-2,,Amahuaca,73_seed,vúro,vúro,v ú r o,,Hyde1980,,,^ v ú r o $,default,ojo; semilla,semilla-2,1833-vuro
+Amahuaca-74_sit-1,,Amahuaca,74_sit,cútaxámuhqui,cútaxámuhqui,k ú t a x á m u h q u i,,Hyde1980,,,^ c ú t a x á m u h q u i $,default,sentarse,sentarse-1,1835-cutaxamuhqui
+Amahuaca-74_sit-2,,Amahuaca,74_sit,mániihí,mániihí,m á n iː h í,,Hyde1980,,,^ m á n ii h í $,default,sentarse,sentarse-2,1836-maniihi
+Amahuaca-74_sit-3,,Amahuaca,74_sit,quíztoohí,quíztoohí,q u í z t oː h í,,Hyde1980,,,^ q u í z t oo h í $,default,sentarse,sentarse-3,1837-quiztoohi
+Amahuaca-74_sit-4,,Amahuaca,74_sit,tzáhoohí,tzáhoohí,t z á h oː h í,,Hyde1980,,,^ t z á h oo h í $,default,sentarse,sentarse-4,1838-tzahoohi
+Amahuaca-74_sit-5,,Amahuaca,74_sit,vúnohí,vúnohí,v ú n o h í,,Hyde1980,,,^ v ú n o h í $,default,perderse; sentarse,sentarse-5,1839-vunohi
+Amahuaca-74_sit-6,,Amahuaca,74_sit,tzáhoohá,tzáhoohá,t z á h oː h á,,Hyde1980,,,^ t z á h oo h á $,default,sentado,sentado-1,1840-tzahooha
+Amahuaca-75_skin-1,,Amahuaca,75_skin,xácaa,xácaa,x á k aː,,Hyde1980,,,^ x á c aa $,default,bagazo; cangrejo; cáscara; cuero; piel,piel-1,1566-xacaa
+Amahuaca-76_sleep-1,,Amahuaca,76_sleep,hóxahí,hóxahí,h ó x a h í,,Hyde1980,,,^ h ó x a h í $,default,adormecer; dormir,dormir-1,743-hoxahi
+Amahuaca-77_small-1,,Amahuaca,77_small,jaztó,jaztó,j a z t ó,,Hyde1980,,,^ j a z t ó $,default,pequeño; poco,pequeno-1,1530-jazto
+Amahuaca-77_small-2,,Amahuaca,77_small,míshtin,míshtin,m í ʃ t i n,,Hyde1980,,,^ m í sh t i n $,default,pequeño; poco,pequeno-2,1531-mishtin
+Amahuaca-77_small-3,,Amahuaca,77_small,píshta,píshta,p í ʃ t a,,Hyde1980,,,^ p í sh t a $,default,pedazo; pequeño; poco,pequeno-3,1532-pishta
+Amahuaca-78_smokeexhaust-1,,Amahuaca,78_smokeexhaust,cohin,cohin,k o h i n,,Hyde1980,,,^ c o h i n $,default,humo,humo-1,1076-cohin
+Amahuaca-79_stand-1,,Amahuaca,79_stand,jásharááhi,jásharááhi,j á ʃ a r áː h i,,Hyde1980,,,^ j á sh a r áá h i $,default,alegre;  estar-,estar-1,83-jasharaahi
+Amahuaca-79_stand-2,,Amahuaca,79_stand,tóhohí,tóhohí,t ó h o h í,,Hyde1980,,,^ t óh o h í $,default, estar;  estar; concebir; encinta; preñada,estar-2,1632-tohohi
+Amahuaca-79_stand-3,,Amahuaca,79_stand,-hózahí (Vea agujerear),-hózahí,h ó z a h í,,Hyde1980,,,^- h ó z a h í $,default, estar; entumecido,estar-3,812-hozahiveaagujerear
+Amahuaca-79_stand-4,,Amahuaca,79_stand,jáhi,jáhi,j á h i,,Hyde1980,,,^ j á h i $,default,estar; ser; vivir,estar-4,851-jahi
+Amahuaca-79_stand-5,,Amahuaca,79_stand,vúro-páznaa hí,vúro-páznaa hí,v ú r o + p á z n aː + h í,,Hyde1980,,,^ v ú r o - p á z n aa + h í $,default, estar; mareado,estar-5,1264-vuropaznaahi
+Amahuaca-79_stand-6,,Amahuaca,79_stand,vachínhqui,vachínhqui,v a tʃ í n h q u i,,Hyde1980,,,^ v a ch í nh q u i $,default, estar; molesto; reñir,estar-6,1315-vachinhqui
+Amahuaca-79_stand-7,,Amahuaca,79_stand,zínááhqui,zínááhqui,z í n áː h q u i,,Hyde1980,,,^ z í n áá h q u i $,default, estar; molesto,estar-7,1316-zinaahqui
+Amahuaca-79_stand-8,,Amahuaca,79_stand,tóhohí,tóhohí,t ó h o h í,,Hyde1980,,,^ t óh o h í $,default, estar;  estar; concebir; encinta; preñada,estar-8,1632-tohohi
+Amahuaca-79_stand-9,,Amahuaca,79_stand,rúxohí,rúxohí,r ú x o h í,,Hyde1980,,,^ r ú x o h í $,default, estar; pasar; resfriado,estar-9,1727-ruxohi
+Amahuaca-80_star-1,,Amahuaca,80_star,vishí,vishí,v i ʃ í,,Hyde1980,,,^ v i sh í $,default,estrella,estrella-1,867-vishi
+Amahuaca-81_stone-1,,Amahuaca,81_stone,máncan,máncan,m á n k a n,,Hyde1980,,,^ m á n c a n $,default,piedra; roca,piedra-1,1564-mancan
+Amahuaca-81_stone-2,,Amahuaca,81_stone,máxax,máxax,m á x a x,,Hyde1980,,,^ m á x a x $,default,piedra,piedra-2,1565-maxax
+Amahuaca-82_sun-1,,Amahuaca,82_sun,vári,vári,v á r i,,Hyde1980,,,^ v á r i $,default,sol,sol-1,1871-vari
+Amahuaca-83_swim-1,,Amahuaca,83_swim,náxihií,náxihií,n á x i h i í,,Hyde1980,,,^ n á x i h i í $,default,nadar,nadar-1,1355-naxihii
+Amahuaca-83_swim-2,,Amahuaca,83_swim,vúhaquín,vúhaquín,v ú h a q u í n,,Hyde1980,,,^ v ú h a q u í n $,default,nadar; sacar,nadar-2,1356-vuhaquin
+Amahuaca-86_this-1,,Amahuaca,86_this,vári-cainháín,vári-cainháín,v á r i + k a i n h á í n,,Hyde1980,,,^ v á r i - c a i nh á í n $,default,este,este-1,852-varicainhain
+Amahuaca-87_thou-1,,Amahuaca,87_thou,min,min,m i n,,Hyde1980,,,^ m i n $,default,tú,tu-1,2028-min
+Amahuaca-87_thou-2,,Amahuaca,87_thou,míya,míya,m í j a,,Hyde1980,,,^ m í y a $,default,ti; tú,tu-2,2029-miya
+Amahuaca-87_thou-3,,Amahuaca,87_thou,mín,mín,m í n,,Hyde1980,,,^ m í n $,default,usted,usted-1,2054-min
+Amahuaca-88_tongue-1,,Amahuaca,88_tongue,jána,jána,j á n a,,Hyde1980,,,^ j á n a $,default,lengua; suyo,lengua-1,1153-jana
+Amahuaca-88_tongue-2,,Amahuaca,88_tongue,jóvi,jóvi,j ó v i,,Hyde1980,,,^ j ó v i $,default,amahuaca;  palabra o idioma; idioma; lengua; palabra,lengua-2,1154-jovi
+Amahuaca-88_tongue-3,,Amahuaca,88_tongue,yóvan,yóvan,j ó v a n,,Hyde1980,,,^ y ó v a n $,default,amahuaca;  palabra o idioma; idioma; lengua; palabra,lengua-3,1155-yovan
+Amahuaca-89_tooth-1,,Amahuaca,89_tooth,xutá,xutá,x u t á,,Hyde1980,,,^ x u t á $,default,diente,diente-1,726-xuta
+Amahuaca-90_tree-1,,Amahuaca,90_tree,jíí,jíí,j íː,,Hyde1980,,,^ j íí $,default,árbol; madera,arbol-1,171-jii
+Amahuaca-91_two-1,,Amahuaca,91_two,rávuu,rávuu,r á v uː,,Hyde1980,,,^ r á v uu $,default,dos,dos-1,744-ravuu
+Amahuaca-92_walk-1,,Amahuaca,92_walk,cáhi,cáhi,k á h i,,Hyde1980,,,^ c á h i $,default,andar; ir,andar-1,136-cahi
+Amahuaca-92_walk-2,,Amahuaca,92_walk,chíruxcúhi,chíruxcúhi,tʃ í r u x k ú h i,,Hyde1980,,,^ ch í r u x c ú h i $,default,andar,andar-2,137-chiruxcuhi
+Amahuaca-92_walk-3,,Amahuaca,92_walk,híyaaváhinhqui,híyaaváhinhqui,h í j aː v á h i n h q u i,,Hyde1980,,,^ h í y aa v á h i nh q u i $,default,andar,andar-3,138-hiyaavahinhqui
+Amahuaca-92_walk-4,,Amahuaca,92_walk,vóhi,vóhi,v ó h i,,Hyde1980,,,^ v óh i $,default,andar; ir; lupuna,andar-4,139-vohi
+Amahuaca-94_water-1,,Amahuaca,94_water,junú,junú,j u n ú,,Hyde1980,,,^ j u n ú $,default,agua; caldo; jugo; líquido; río,agua-1,55-junu
+Amahuaca-94_water-2,,Amahuaca,94_water,vacónhma,vacónhma,v a k ó n h m a,,Hyde1980,,,^ v a c ó nh m a $,default,agua,agua-2,56-vaconhma
+Amahuaca-95_we-1,,Amahuaca,95_we,nócu,nócu,n ó k u,,Hyde1980,,,^ n ó c u $,default,nosotros,nosotros-1,1376-nocu
+Amahuaca-95_we-2,,Amahuaca,95_we,non,non,n o n,,Hyde1980,,,^ n o n $,default,nosotros,nosotros-2,1377-non
+Amahuaca-96_what-1,,Amahuaca,96_what,jáú,jáú,j á ú,,Hyde1980,,,^ j á ú $,default,cómo; qué,que-1,1660-jau
+Amahuaca-97_white-1,,Amahuaca,97_white,joxó,joxó,j o x ó,,Hyde1980,,,^ j o x ó $,default,blanco,blanco-1,293-joxo
+Amahuaca-98_who-1,,Amahuaca,98_who,tzóva,tzóva,t z ó v a,,Hyde1980,,,^ t z ó v a $,default,quién,quien-1,1674-tzova
+Amahuaca-99_woman-1,,Amahuaca,99_woman,xáno,xáno,x á n o,,Hyde1980,,,^ x á n o $,default,mujer,mujer-1,1344-xano
+Amahuaca-100_yellow-1,,Amahuaca,100_yellow,pánshin,pánshin,p á n ʃ i n,,Hyde1980,,,^ p á n sh i n $,default,amarillo,amarillo-1,113-panshin
