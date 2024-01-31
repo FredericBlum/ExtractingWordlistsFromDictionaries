@@ -44,14 +44,13 @@ cldfbench lexibank.makecldf lexibank_hydeamahuaca.py --concepticon-version=v3.1.
 
 - **Varieties:** 1
 - **Concepts:** 86
-- **Lexemes:** 151
+- **Lexemes:** 146
 - **Sources:** 1
-- **Synonymy:** 1.76
+- **Synonymy:** 1.70
 - **Invalid lexemes:** 0
-- **Tokens:** 868
+- **Tokens:** 829
 - **Segments:** 36 (0 BIPA errors, 0 CLTS sound class errors, 36 CLTS modified)
 - **Inventory size (avg):** 36.00
-
 
 ## CLDF Datasets
 
