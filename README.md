@@ -13,6 +13,14 @@ pip install -r requirements.txt
 pip install getcl/
 ```
 
+In order to run the code, you will need local copies of CLTS, Concepticon, and Glottolog. To prepare those reference catalogues, plesae run the followign code and follow the interactive prompts:
+
+```CLI
+cldfbench catconfig
+```
+
+You are now ready to reproduce the case-studies.
+
 ## Case Study I: Daakaka
 
 To reproduce the first case study, please switch to the respective working directory.
