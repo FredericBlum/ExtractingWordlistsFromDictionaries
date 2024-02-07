@@ -1,0 +1,20 @@
+{
+    "title": "Daakaka Dictionary",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+    ],
+    "creators": [],
+    "contributors": [],
+    "communities": [
+        {
+            "identifier": "lexibank"
+        }
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>von Prince, Kilu. 2017. Daakaka dictionary. Dictionaria 1. 1-2167 (Available online at https://dictionaria.clld.org/contributions/daakaka)</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-4.0"
+    }
+}

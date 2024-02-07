@@ -48,9 +48,9 @@ class Dataset(BaseDataset):
                 fidx = str(idx+1)+"-"+slug(row["VALUE"])
                 idxs[fidx] = row
                 for sense in re.split("[,]", row["GLOSS"]):
-                    if row["VALUE"].strip() and sense.strip():
+                    if row["VALUE"] and sense:
                         senses[slug(sense, lowercase=False)] += [(fidx, sense)]
-                        form2idx[row["VALUE"].strip(), sense.strip()] = fidx
+                        form2idx[row["VALUE"], sense] = fidx
 
         with self.cldf_writer(args) as writer:
             # add sources
@@ -94,7 +94,7 @@ class Dataset(BaseDataset):
                                 Parameter_ID=concepts[row["CONCEPTICON_GLOSS"]],
                                 Value=row["FORM"].strip(),
                                 Meaning=row["MEANING"],
-                                Entry_ID=form2idx[row["FORM"].strip(), row["SENSE"].strip()],
+                                Entry_ID=form2idx[row["FORM"], row["SENSE"]],
                                 Sense_ID=row["SENSE_ID"],
                                 Source="Hyde1980"
                                 )

@@ -9,6 +9,8 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 8_black,black,163,BLACK
 9_blood,blood,946,BLOOD
 10_bone,bone,1394,BONE
+11_breast,*breast,1402,BREAST
+12_burn,burn,2102,BURN
 14_cloud,cloud,1489,CLOUD
 15_cold,cold,1287,COLD
 16_come,come,1446,COME
@@ -39,6 +41,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 44_knee,*knee,1371,KNEE
 45_knowsomething,know,1410,KNOW (SOMETHING)
 46_leaf,leaf,628,LEAF
+47_lierest,lie,1411,LIE (REST)
 48_liver,liver,1224,LIVER
 49_long,long,1203,LONG
 50_louse,louse,1392,LOUSE
@@ -66,11 +69,11 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 76_sleep,sleep,1585,SLEEP
 77_small,small,1246,SMALL
 78_smokeexhaust,smoke,778,SMOKE (EXHAUST)
-79_stand,stand,1442,STAND
 80_star,star,1430,STAR
 81_stone,stone,857,STONE
 82_sun,sun,1343,SUN
 83_swim,swim,1439,SWIM
+84_tail,tail,1220,TAIL
 86_this,this,1214,THIS
 87_thou,thou,1215,THOU
 88_tongue,tongue,1205,TONGUE
@@ -78,6 +81,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 90_tree,tree,906,TREE
 91_two,two,1498,TWO
 92_walk,walk,1443,WALK
+93_hotorwarm,warm (hot),2272,HOT OR WARM
 94_water,water,948,WATER
 95_we,we,1212,WE
 96_what,what,1236,WHAT

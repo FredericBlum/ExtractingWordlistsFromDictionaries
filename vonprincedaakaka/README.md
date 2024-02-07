@@ -25,10 +25,10 @@ Conceptlists in Concepticon:
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
 
 - **Varieties:** 1
-- **Concepts:** 79
-- **Lexemes:** 141
+- **Concepts:** 89
+- **Lexemes:** 136
 - **Sources:** 1
-- **Synonymy:** 1.78
+- **Synonymy:** 1.53
 
 ## CLDF Datasets
 
