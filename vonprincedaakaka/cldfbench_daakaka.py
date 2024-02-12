@@ -147,6 +147,10 @@ class Dataset(BaseDataset):
                 sfm2cldf.make_cldf_schema(
                     writer.cldf, properties,
                     entries, senses, examples, media)
+                # Ensure the dictionary knows about the columns lexibank will
+                # make when it overwrites the language table.
+                writer.cldf.add_columns(
+                    'LanguageTable', 'Glottolog_Name', 'Family')
 
                 sfm2cldf.attach_column_titles(writer.cldf, properties)
 
