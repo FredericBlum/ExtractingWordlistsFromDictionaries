@@ -97,7 +97,10 @@ class Dataset(BaseDataset):
             properties = md.get('properties') or {}
             language_name = md['language']['name']
             isocode = md['language']['isocode']
-            language_id = md['language']['isocode']
+            language_id = next(
+                row
+                for row in self.etc_dir.read_csv('languages.csv', dicts=True)
+                if row['Glottocode'] == 'daka1243')['ID']
             glottocode = md['language']['glottocode']
 
             marker_map = ChainMap(
