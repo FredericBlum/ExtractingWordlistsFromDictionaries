@@ -20,11 +20,11 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Install dependencies
+    - name: Set up pycldf
       run: |
         python -m pip install --upgrade pip
         pip install pycldf
-    - name: Test with pytest
+    - name: Validate CLDF datasets
       run: |
         cldf validate vonprincedaakaka/cldf/Dictionary-metadata.json
         cldf validate vonprincedaakaka/cldf/cldf-metadata.json
