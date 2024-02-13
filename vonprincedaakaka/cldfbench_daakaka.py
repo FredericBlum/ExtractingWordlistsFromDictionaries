@@ -97,7 +97,10 @@ class Dataset(BaseDataset):
             properties = md.get('properties') or {}
             language_name = md['language']['name']
             isocode = md['language']['isocode']
-            language_id = md['language']['isocode']
+            language_id = next(
+                row
+                for row in self.etc_dir.read_csv('languages.csv', dicts=True)
+                if row['Glottocode'] == 'daka1243')['ID']
             glottocode = md['language']['glottocode']
 
             marker_map = ChainMap(
@@ -144,6 +147,10 @@ class Dataset(BaseDataset):
                 sfm2cldf.make_cldf_schema(
                     writer.cldf, properties,
                     entries, senses, examples, media)
+                # Ensure the dictionary knows about the columns lexibank will
+                # make when it overwrites the language table.
+                writer.cldf.add_columns(
+                    'LanguageTable', 'Glottolog_Name', 'Family')
 
                 sfm2cldf.attach_column_titles(writer.cldf, properties)
 

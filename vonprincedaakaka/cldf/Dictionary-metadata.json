@@ -41,7 +41,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.12.1"
+            "dc:description": "3.11.7"
         },
         {
             "dc:title": "python-packages",
@@ -571,6 +571,14 @@
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#iso639P3code",
                         "required": false,
                         "name": "ISO639P3code"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Glottolog_Name"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Family"
                     }
                 ],
                 "primaryKey": [
