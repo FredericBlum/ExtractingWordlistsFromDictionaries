@@ -1,12 +1,10 @@
 ID,Name,Concepticon_ID,Concepticon_Gloss
 1_all,all,98,ALL
 2_ash,ashes,646,ASH
-4_belly,belly,1251,BELLY
 5_big,big,1202,BIG
 6_bird,bird,937,BIRD
 7_bite,bite,1403,BITE
 8_black,black,163,BLACK
-9_blood,blood,946,BLOOD
 10_bone,bone,1394,BONE
 11_breast,*breast,1402,BREAST
 12_burn,burn,2102,BURN
@@ -23,7 +21,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 24_egg,egg,744,EGG
 25_eye,eye,1248,EYE
 26_fatorganicsubstance,fat (grease),323,FAT (ORGANIC SUBSTANCE)
-27_feather,feather,1201,FEATHER
 28_fire,fire,221,FIRE
 29_fish,fish,227,FISH
 30_flymovethroughair,fly,1441,FLY (MOVE THROUGH AIR)
@@ -38,14 +35,12 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 42_i,I,1209,I
 43_kill,kill,1417,KILL
 44_knee,*knee,1371,KNEE
-45_knowsomething,know,1410,KNOW (SOMETHING)
 46_leaf,leaf,628,LEAF
 47_lierest,lie,1411,LIE (REST)
 48_liver,liver,1224,LIVER
 49_long,long,1203,LONG
 50_louse,louse,1392,LOUSE
 51_man,man,1554,MAN
-53_fleshormeat,meat (flesh),2615,FLESH OR MEAT
 54_moon,*moon,1313,MOON
 55_mountain,mountain,639,MOUNTAIN
 56_mouth,mouth,674,MOUTH
@@ -56,8 +51,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 61_nose,nose,1221,NOSE
 62_not,not,1240,NOT
 63_one,one,1493,ONE
-64_person,person (human being),683,PERSON
-65_rainingorrain,rain,2108,RAINING OR RAIN
 66_red,red,156,RED
 67_road,road (path),667,ROAD
 68_root,root,670,ROOT
@@ -76,13 +69,10 @@ ID,Name,Concepticon_ID,Concepticon_Gloss
 83_swim,swim,1439,SWIM
 84_tail,tail,1220,TAIL
 86_this,this,1214,THIS
-88_tongue,tongue,1205,TONGUE
 89_tooth,tooth,1380,TOOTH
 90_tree,tree,906,TREE
 91_two,two,1498,TWO
 92_walk,walk,1443,WALK
-93_hotorwarm,warm (hot),2272,HOT OR WARM
-94_water,water,948,WATER
 96_what,what,1236,WHAT
 97_white,white,1335,WHITE
 98_who,who,1235,WHO
