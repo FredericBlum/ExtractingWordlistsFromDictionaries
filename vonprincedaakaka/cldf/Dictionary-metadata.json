@@ -41,7 +41,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.11.7"
+            "dc:description": "3.12.1"
         },
         {
             "dc:title": "python-packages",

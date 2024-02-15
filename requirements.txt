@@ -17,8 +17,10 @@ commonnexus==1.9.2
 csvw==3.3.0
 docopt==0.6.2
 et-xmlfile==1.1.0
+getcl @ file:///home/fredericblum/Projects/ExtractingWordlistsFromDictionaries/getcl
 gitdb==4.0.11
 GitPython==3.1.41
+greenlet==3.0.3
 html5lib==1.1
 idna==3.6
 iniconfig==2.0.0
@@ -53,9 +55,8 @@ pyigt==2.1.0
 pylatexenc==2.10
 pylexibank==3.4.0
 pyparsing==3.1.1
-pysem==0.7.0
+pysem @ git+https://github.com/lingpy/pysem@2af9d595212ada7a6e45f9bf980709f749a7696e
 pytest==8.0.0
-pytest-cldf==0.3.0
 python-dateutil==2.8.2
 python-frontmatter==1.1.0
 PyYAML==6.0.1
@@ -67,6 +68,7 @@ requests==2.31.0
 rfc3986==1.5.0
 rpds-py==0.17.1
 segments==2.2.1
+setuptools==69.0.3
 six==1.16.0
 smmap==5.0.1
 soupsieve==2.5
