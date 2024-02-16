@@ -2,13 +2,14 @@
 Map concepts to concepticon.
 """
 
-from cldfbench.cli_util import add_catalog_spec
-from collections import defaultdict
-from pysem.glosses import to_concepticon
-from clldutils.clilib import Table, add_format
 import argparse
-from pyconcepticon import Concepticon
+from collections import defaultdict
+
+from cldfbench.cli_util import add_catalog_spec
+from clldutils.clilib import Table, add_format
 from pycldf import Dataset
+from pyconcepticon import Concepticon
+from pysem.glosses import to_concepticon
 
 
 def main(*args):
