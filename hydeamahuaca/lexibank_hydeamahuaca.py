@@ -40,11 +40,11 @@ class Dataset(BaseDataset):
         form2idx = {}
 
         rows = self.raw_dir.read_csv(
-            "parsed_raw.tsv", delimiter="\t", dicts=True) 
-        for idx, row in enumerate(rows):
+            "parsed_raw.tsv", delimiter="\t", dicts=True)
+        for idx, row in enumerate(rows, 1):
             # add idx and form2idx for dic based on extraction
             if row["GLOSS"].strip():
-                fidx = str(idx+1)+"-"+slug(row["VALUE"])
+                fidx = str(idx) + "-" + slug(row["VALUE"])
                 idxs[fidx] = row
                 for sense in re.split("[,]", row["GLOSS"]):
                     if row["VALUE"] and sense:
@@ -57,11 +57,10 @@ class Dataset(BaseDataset):
             # add languages for both
             for language in self.languages:
                 writer.add_language(
-                        ID=language["ID"],
-                        Name=language["Name"],
-                        Family=language["Family"],
-                        Glottocode=language["Glottocode"],
-                        )
+                    ID=language["ID"],
+                    Name=language["Name"],
+                    Family=language["Family"],
+                    Glottocode=language["Glottocode"])
             args.log.info("added languages")
 
             language_table = writer.cldf["LanguageTable"]
@@ -81,22 +80,20 @@ class Dataset(BaseDataset):
                     concepts[concept.concepticon_gloss] = idx
 
                 new_index = 0
-                for row in self.raw_dir.read_csv(
-                        "raw_mapped.tsv", delimiter="\t", dicts=True
-                        ):
-
+                mapped_rows = self.raw_dir.read_csv(
+                    "raw_mapped.tsv", delimiter="\t", dicts=True)
+                for row in mapped_rows:
                     if row["FORM"] != '':
                         new_index += 1
                         writer.add_forms_from_value(
-                                ID=new_index,
-                                Language_ID="Amahuaca",
-                                Parameter_ID=concepts[row["CONCEPTICON_GLOSS"]],
-                                Value=row["FORM"].strip(),
-                                Meaning=row["MEANING"],
-                                Entry_ID=form2idx[row["FORM"], row["SENSE"]],
-                                Sense_ID=row["SENSE_ID"],
-                                Source="Hyde1980"
-                                )
+                            ID=new_index,
+                            Language_ID="Amahuaca",
+                            Parameter_ID=concepts[row["CONCEPTICON_GLOSS"]],
+                            Value=row["FORM"].strip(),
+                            Meaning=row["MEANING"],
+                            Entry_ID=form2idx[row["FORM"], row["SENSE"]],
+                            Sense_ID=row["SENSE_ID"],
+                            Source="Hyde1980")
             else:
                 args.log.info("skipping concepts and VALUE")
 
@@ -106,16 +103,14 @@ class Dataset(BaseDataset):
 
             # iterate over senses and values
             for sense, values in senses.items():
-                for i, (fidx, sense_desc) in enumerate(values):
+                for i, (fidx, sense_desc) in enumerate(values, 1):
                     writer.objects["SenseTable"].append({
-                        "ID": sense+"-"+str(i+1),
+                        "ID": f"{sense}-{i}",
                         "Description": sense_desc,
-                        "Entry_ID": fidx
-                        })
+                        "Entry_ID": fidx})
             for fidx, row in idxs.items():
                 writer.objects["EntryTable"].append({
                     "ID": fidx,
                     "Language_ID": "Amahuaca",
                     "Headword": row["VALUE"],
-                    'Part_Of_Speech': row["POS"]
-                    })
+                    'Part_Of_Speech': row["POS"]})
