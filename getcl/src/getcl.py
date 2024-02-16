@@ -54,18 +54,20 @@ def main(*args):
     for idx, concept in clist.items():
         if idx not in visited:
             table += [[idx, concept.concepticon_gloss, "", "", "", ""]]
+
+    table.sort(key=lambda x: x[1])
     with Table(
         args, "ID", "CONCEPTICON_ID", "CONCEPTICON_GLOSS",
         "FORM", "MEANING", "SENSE", "SENSE_ID"
     ) as tbl:
-        for i, row in enumerate(sorted(table, key=lambda x: x[1])):
-            tbl.append([i + 1] + row)
+        for row_no, row in enumerate(table, 1):
+            tbl.append([row_no] + row)
     with open(args.output, "w") as f:
         f.write(
             "\t".join([
                 "ID", "CONCEPTICON_ID", "CONCEPTICON_GLOSS", "FORM", "MEANING",
                 "SENSE", "SENSE_ID"])
             + "\n")
-        for i, row in enumerate(sorted(table, key=lambda x: x[1])):
-            f.write(str(i + 1) + "\t" + "\t".join(row) + "\n")
+        for row_no, row in enumerate(table, 1):
+            f.write(str(row_no) + "\t" + "\t".join(row) + "\n")
 
