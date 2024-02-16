@@ -29,7 +29,7 @@ def main():
         i = 0
 
         for line in f:
-            if not line.strip():
+            if line in {'\n', ''}:
                 continue
             # Special condition for ill-formated entries
             if 'coragyps' in line:
