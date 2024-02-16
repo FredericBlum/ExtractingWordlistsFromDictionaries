@@ -12,6 +12,7 @@ RUN = 'FULL'
 # Set if mapping is re-run
 # RUN = 'PRE'
 
+
 @attr.s
 class CustomLexeme(Lexeme):
     Meaning = attr.ib(default=None)
@@ -38,11 +39,9 @@ class Dataset(BaseDataset):
         idxs = {}
         form2idx = {}
 
-        for idx, row in enumerate(
-            self.raw_dir.read_csv(
-                "parsed_raw.tsv", delimiter="\t", dicts=True
-                )
-                ):
+        rows = self.raw_dir.read_csv(
+            "parsed_raw.tsv", delimiter="\t", dicts=True) 
+        for idx, row in enumerate(rows):
             # add idx and form2idx for dic based on extraction
             if row["GLOSS"].strip():
                 fidx = str(idx+1)+"-"+slug(row["VALUE"])
