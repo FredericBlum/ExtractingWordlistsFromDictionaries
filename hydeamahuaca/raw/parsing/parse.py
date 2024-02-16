@@ -18,39 +18,43 @@ def split_string_on_pos(string, delim):
 
 def main():
     entries = defaultdict()
-    pos = ['(n.)', '(vt.)', '(vi.)', '(adv.)', '(adj.)', '(nf.)', '(conj.)', '(pn.)', '(vr.)',
-           '(int.)', '(n.):', '(vt.):', '(vi.):', '(adv.):', '(adj.):', '(nm.):', '(nf.):', '(conj.):',
-           '(pn.):', '(vr.):', '(rm.):', '(nm.).', ':', '(nm.)', '(nma.)']
+    pos = [
+        '(n.)', '(vt.)', '(vi.)', '(adv.)', '(adj.)', '(nf.)', '(conj.)',
+        '(pn.)', '(vr.)', '(int.)', '(n.):', '(vt.):', '(vi.):', '(adv.):',
+        '(adj.):', '(nm.):', '(nf.):', '(conj.):', '(pn.):', '(vr.):', '(rm.):',
+        '(nm.).', ':', '(nm.)', '(nma.)'
+    ]
 
     with open("hyde_esp.txt", "r", encoding="utf8") as f:
         i = 0
 
-        for line in f.readlines():
-            if line not in ['\n', '']:
-                # Special condition for ill-formated entries
-                if 'coragyps' in line:
-                    IDX = i - 1
-                    line = line.split('. ')
-                    entries[IDX] = entries[IDX] + line[0]
-                    entries[i] = line[1]
-                    entries[i] = entries[i].replace('¬\n', '')
-                elif '\tnáhin, pózun' in line:
-                    IDX = i - 1
-                    entries[IDX] = 'tocar (vi.) távu-távuhí,'
-                    entries[i] = 'tocar (vt.) rámanquín, vúaquín.'
-                elif 'rámanquín, vúaquín.' in line:
-                    IDX = i - 1
-                    entries[IDX] = 'perezoso (adj.) yonotíma.'
-                    entries[i] = 'perezoso (nm.) náhin, pózun.'
-                # General condition
-                elif any(item in line for item in pos):
-                    entries[i] = line
-                else:
-                    IDX = i - 1
-                    entries[i] = entries[IDX] + line
-                    entries[i] = entries[i].replace('¬\n', '')
-                    del entries[IDX]
-                i += 1
+        for line in f:
+            if not line.strip():
+                continue
+            # Special condition for ill-formated entries
+            if 'coragyps' in line:
+                IDX = i - 1
+                line = line.split('. ')
+                entries[IDX] = entries[IDX] + line[0]
+                entries[i] = line[1]
+                entries[i] = entries[i].replace('¬\n', '')
+            elif '\tnáhin, pózun' in line:
+                IDX = i - 1
+                entries[IDX] = 'tocar (vi.) távu-távuhí,'
+                entries[i] = 'tocar (vt.) rámanquín, vúaquín.'
+            elif 'rámanquín, vúaquín.' in line:
+                IDX = i - 1
+                entries[IDX] = 'perezoso (adj.) yonotíma.'
+                entries[i] = 'perezoso (nm.) náhin, pózun.'
+            # General condition
+            elif any(item in line for item in pos):
+                entries[i] = line
+            else:
+                IDX = i - 1
+                entries[i] = entries[IDX] + line
+                entries[i] = entries[i].replace('¬\n', '')
+                del entries[IDX]
+            i += 1
 
     output = [['GLOSS', 'POS', 'VALUE']]
     # Splitting the entries
