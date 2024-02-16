@@ -33,7 +33,7 @@ def main(*args):
     entries = defaultdict(list)
     for sense in ds.objects("SenseTable"):
         entry = sense.entries[0]
-        entries[entry.cldf.headword] += [sense.cldf.description]
+        entries[entry.cldf.headword].append(sense.cldf.description)
         pos = entry.cldf.partOfSpeech.split(",")[0] if entry.cldf.partOfSpeech else ""
         maps = to_concepticon(
             [{"gloss": sense.cldf.description, "pos_ref": pos}],
@@ -41,19 +41,19 @@ def main(*args):
         if maps[sense.cldf.description]:
             cid, cgl, _, score = maps[sense.cldf.description][0]
             if cid in clist:
-                mapped[cid, cgl] += [[
-                    sense.id,
-                    sense.cldf.description,
-                    entry.cldf.headword]]
+                mapped[cid, cgl].append(
+                    [sense.id, sense.cldf.description, entry.cldf.headword])
     table = []
     visited = set()
     for k, values in mapped.items():
         for sense_id, sense, form in values:
-            table += [[k[0], k[1], form, "; ".join(entries.get(form, [""])), sense, sense_id]]
+            table.append([
+                k[0], k[1], form, "; ".join(entries.get(form, [""])), sense,
+                sense_id])
         visited.add(k[0])
     for idx, concept in clist.items():
         if idx not in visited:
-            table += [[idx, concept.concepticon_gloss, "", "", "", ""]]
+            table.append([idx, concept.concepticon_gloss, "", "", "", ""])
 
     table.sort(key=lambda x: x[1])
     with Table(
