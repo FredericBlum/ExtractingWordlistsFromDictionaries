@@ -3,6 +3,7 @@ Map concepts to concepticon.
 """
 
 import argparse
+import csv
 from collections import defaultdict
 
 from cldfbench.cli_util import add_catalog_spec
@@ -64,11 +65,10 @@ def main(*args):
         for row_no, row in enumerate(table, 1):
             tbl.append([row_no] + row)
     with open(args.output, "w") as f:
-        f.write(
-            "\t".join([
-                "ID", "CONCEPTICON_ID", "CONCEPTICON_GLOSS", "FORM", "MEANING",
-                "SENSE", "SENSE_ID"])
-            + "\n")
-        for row_no, row in enumerate(table, 1):
-            f.write(str(row_no) + "\t" + "\t".join(row) + "\n")
-
+        wtr = csv.writer(f, delimiter="\t")
+        wtr.writerow([
+            "ID", "CONCEPTICON_ID", "CONCEPTICON_GLOSS", "FORM", "MEANING",
+            "SENSE", "SENSE_ID"])
+        wtr.writerows(
+            [row_no] + row
+            for row_no, row in enumerate(table, 1))
