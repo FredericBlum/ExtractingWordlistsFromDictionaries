@@ -48,7 +48,8 @@ class Dataset(BaseDataset):
                 idxs[fidx] = row
                 for sense in re.split("[,]", row["GLOSS"]):
                     if row["VALUE"] and sense:
-                        senses[slug(sense, lowercase=False)] += [(fidx, sense)]
+                        senses[slug(sense, lowercase=False)].append(
+                            (fidx, sense))
                         form2idx[row["VALUE"], sense] = fidx
 
         with self.cldf_writer(args) as writer:
