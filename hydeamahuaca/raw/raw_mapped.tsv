@@ -17,8 +17,8 @@ ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	FORM	MEANING	SENSE	SENSE_ID
 16	163	BLACK	cúchux	negro	negro	negro-2
 17	946	BLOOD	jimí	sangre	sangre	sangre-1
 18	1394	BONE	xaó	hueso	hueso	hueso-1
-19	1402	BREAST	chochó	pecho	pecho	pecho-1
-20	2102	BURN	cóhaquín	quemar	quemar	quemar-1
+19	1402	BREAST				
+20	2102	BURN				
 21	72	CLAW				
 22	1489	CLOUD	nai-cóhin	nube	nube	nube-1
 23	1287	COLD	matzí  hacer frío durante algunos	frío	frío	frio-1
@@ -72,14 +72,14 @@ ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	FORM	MEANING	SENSE	SENSE_ID
 71	1408	HEAR	níncaaquín	entender; escuchar; obedecer; oír	oír	oir-1
 72	1223	HEART	jóvintí	corazón	corazón	corazon-1
 73	1393	HORN (ANATOMY)	manxo	cuerno	cuerno	cuerno-1
-74	2272	HOT OR WARM	hítziz	caliente	caliente	caliente-1
+74	2272	HOT OR WARM				
 75	1209	I	hún	yo	yo	yo-1
 76	1417	KILL	hayánquin	matar	matar	matar-1
 77	1417	KILL	rútuquín	matar	matar	matar-2
 78	1371	KNEE	rántoncó	rodilla	rodilla	rodilla-1
 79	1410	KNOW (SOMETHING)	honanhí	saber	saber	saber-1
 80	628	LEAF	púhi	hoja; pluma	hoja	hoja-1
-81	1411	LIE (REST)	jóvinhí	descansar	descansar	descansar-1
+81	1411	LIE (REST)				
 82	1224	LIVER	tacá	hígado	hígado	higado-1
 83	1203	LONG	chaíí	alto; largo	largo	largo-1
 84	1392	LOUSE	híya	me; mí; piojo; pulga	piojo	piojo-1
@@ -112,42 +112,50 @@ ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	FORM	MEANING	SENSE	SENSE_ID
 111	1409	SEE	hiinhí	mirar; ver	ver	ver-1
 112	714	SEED	juxú	semilla	semilla	semilla-1
 113	714	SEED	vúro	ojo; semilla	semilla	semilla-2
-114	1416	SIT	cútaxámuhqui	sentarse	sentarse	sentarse-1
-115	1416	SIT	mániihí	sentarse	sentarse	sentarse-2
-116	1416	SIT	quíztoohí	sentarse	sentarse	sentarse-3
-117	1416	SIT	tzáhoohí	sentarse	sentarse	sentarse-4
-118	1416	SIT	vúnohí	perderse; sentarse	sentarse	sentarse-5
-120	763	SKIN	xácaa	bagazo; cangrejo; cáscara; cuero; piel	piel	piel-1
-121	1585	SLEEP	hóxahí	adormecer; dormir	dormir	dormir-1
-122	1246	SMALL	jaztó	pequeño; poco	pequeño	pequeno-1
-123	1246	SMALL	míshtin	pequeño; poco	pequeño	pequeno-2
-124	1246	SMALL	píshta	pedazo; pequeño; poco	pequeño	pequeno-3
-125	778	SMOKE (EXHAUST)	cohin	humo	humo	humo-1
-135	1430	STAR	vishí	estrella	estrella	estrella-1
-136	857	STONE	máncan	piedra; roca	piedra	piedra-1
-137	857	STONE	máxax	piedra	piedra	piedra-2
-138	1343	SUN	vári	sol	sol	sol-1
-139	1439	SWIM	náxihií	nadar	nadar	nadar-1
-140	1439	SWIM	vúhaquín	nadar; sacar	nadar	nadar-2
-141	1220	TAIL	jína	cola de una animal	cola de una animal	coladeunaanimal-1
-142	78	THAT				
-143	1214	THIS	vári-cainháín	este	este	este-1
-144	1215	THOU	min	tú	tú	tu-1
-145	1215	THOU	míya	ti; tú	tú	tu-2
-147	1205	TONGUE	jána	lengua; suyo	lengua	lengua-1
-150	1380	TOOTH	xutá	diente	diente	diente-1
-151	906	TREE	jíí	árbol; madera	árbol	arbol-1
-152	1498	TWO	rávuu	dos	dos	dos-1
-153	1443	WALK	cáhi	andar; ir	andar	andar-1
-154	1443	WALK	chíruxcúhi	andar	andar	andar-2
-155	1443	WALK	híyaaváhinhqui	andar	andar	andar-3
-156	1443	WALK	vóhi	andar; ir; lupuna	andar	andar-4
-157	948	WATER	junú	agua; caldo; jugo; líquido; río	agua	agua-1
-158	948	WATER	vacónhma	agua	agua	agua-2
-159	1212	WE	nócu	nosotros	nosotros	nosotros-1
-160	1212	WE	non	nosotros	nosotros	nosotros-2
-161	1236	WHAT	jáú	cómo; qué	qué	que-1
-162	1335	WHITE	joxó	blanco	blanco	blanco-1
-163	1235	WHO	tzóva	quién	quién	quien-1
-164	962	WOMAN	xáno	mujer	mujer	mujer-1
-165	1424	YELLOW	pánshin	amarillo	amarillo	amarillo-1
+114	1416	SIT	tzáhoohá	sentado	sentado	sentado-1
+115	763	SKIN	xácaa	bagazo; cangrejo; cáscara; cuero; piel	piel	piel-1
+116	1585	SLEEP	hóxahí	adormecer; dormir	dormir	dormir-1
+117	1246	SMALL	jaztó	pequeño; poco	pequeño	pequeno-1
+118	1246	SMALL	míshtin	pequeño; poco	pequeño	pequeno-2
+119	1246	SMALL	píshta	pedazo; pequeño; poco	pequeño	pequeno-3
+120	778	SMOKE (EXHAUST)	cohin	humo	humo	humo-1
+121	1442	STAND	jásharááhi	alegre;  estar-	 estar-	estar-1
+122	1442	STAND	tóhohí	 estar;  estar; concebir; encinta; preñada	 estar	estar-2
+123	1442	STAND	-hózahí (Vea agujerear)	 estar; entumecido	 estar	estar-3
+124	1442	STAND	jáhi	estar; ser; vivir	estar	estar-4
+125	1442	STAND	vúro-páznaa hí	 estar; mareado	 estar	estar-5
+126	1442	STAND	vachínhqui	 estar; molesto; reñir	 estar	estar-6
+127	1442	STAND	zínááhqui	 estar; molesto	 estar	estar-7
+128	1442	STAND	tóhohí	 estar;  estar; concebir; encinta; preñada	 estar	estar-8
+129	1442	STAND	rúxohí	 estar; pasar; resfriado	 estar	estar-9
+130	1430	STAR	vishí	estrella	estrella	estrella-1
+131	857	STONE	máncan	piedra; roca	piedra	piedra-1
+132	857	STONE	máxax	piedra	piedra	piedra-2
+133	1343	SUN	vári	sol	sol	sol-1
+134	1439	SWIM	náxihií	nadar	nadar	nadar-1
+135	1439	SWIM	vúhaquín	nadar; sacar	nadar	nadar-2
+136	1220	TAIL				
+137	78	THAT				
+138	1214	THIS	vári-cainháín	este	este	este-1
+139	1215	THOU	min	tú	tú	tu-1
+140	1215	THOU	míya	ti; tú	tú	tu-2
+141	1215	THOU	mín	usted	usted	usted-1
+142	1205	TONGUE	jána	lengua; suyo	lengua	lengua-1
+143	1205	TONGUE	jóvi	amahuaca;  palabra o idioma; idioma; lengua; palabra	lengua	lengua-2
+144	1205	TONGUE	yóvan	amahuaca;  palabra o idioma; idioma; lengua; palabra	lengua	lengua-3
+145	1380	TOOTH	xutá	diente	diente	diente-1
+146	906	TREE	jíí	árbol; madera	árbol	arbol-1
+147	1498	TWO	rávuu	dos	dos	dos-1
+148	1443	WALK	cáhi	andar; ir	andar	andar-1
+149	1443	WALK	chíruxcúhi	andar	andar	andar-2
+150	1443	WALK	híyaaváhinhqui	andar	andar	andar-3
+151	1443	WALK	vóhi	andar; ir; lupuna	andar	andar-4
+152	948	WATER	junú	agua; caldo; jugo; líquido; río	agua	agua-1
+153	948	WATER	vacónhma	agua	agua	agua-2
+154	1212	WE	nócu	nosotros	nosotros	nosotros-1
+155	1212	WE	non	nosotros	nosotros	nosotros-2
+156	1236	WHAT	jáú	cómo; qué	qué	que-1
+157	1335	WHITE	joxó	blanco	blanco	blanco-1
+158	1235	WHO	tzóva	quién	quién	quien-1
+159	962	WOMAN	xáno	mujer	mujer	mujer-1
+160	1424	YELLOW	pánshin	amarillo	amarillo	amarillo-1

@@ -3,7 +3,7 @@ ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	FORM	MEANING	SENSE	SENSE_ID
 2	98	ALL	seaa	every; entire; disappear; get lost; die	every; entire	SN001387
 3	646	ASH	bel	ash; the fireplace inside a kitchen hut	ash	SN000105
 4	1204	BARK				
-5	1251	BELLY	tam	belly	belly, stomach	SN001621
+5	1251	BELLY				
 6	1202	BIG	lyep	great	great	SN000835
 7	1202	BIG	towo	big	big	SN001795
 8	1202	BIG	wowo	big (of a multitude of objects / persons)	big (of a multitude of objects / persons)	SN002086
@@ -12,7 +12,7 @@ ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	FORM	MEANING	SENSE	SENSE_ID
 11	1403	BITE	kyer	bite; sting; clot	bite; sting	SN000704
 12	163	BLACK	mir	black	black	SN000961
 13	163	BLACK	tung myaek	dark; black	dark; black	SN001824
-14	946	BLOOD	bura	clotted blood	clotted blood	SN000221
+14	946	BLOOD				
 15	1394	BONE	bosi	bone ; bone; tool for scooping a coconut out of its shell; copra chisel ; copra.chisel; bone of	bone ; bone	SN000165
 16	1402	BREAST	sis	(of the tide) rise; goatfish; teat; nipple; breast	teat; nipple; breast	SN001476
 17	2102	BURN	en	eat ; eat; burn; this, [demonstrative]	burn	SN000421
@@ -38,12 +38,13 @@ ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	FORM	MEANING	SENSE	SENSE_ID
 37	1248	EYE	met	eye	eye	SN000930
 38	1248	EYE	myar	watch; (of food) be underdone or unripe; eye; aimlessly; selfish; greedy; random	eye	SN001037
 39	323	FAT (ORGANIC SUBSTANCE)	tamyes	fat; gluttonous; fatso; sunfish; spider	fat; gluttonous	SN001625
-40	1201	FEATHER	vevyu	feathers	hair; feathers	SN001940
+40	1201	FEATHER				
 41	221	FIRE	apyang	fire	fire	SN000048
 42	221	FIRE	punapyang	at the fire; close to the fire	at the fire; close to the fire	SN001272
 43	227	FISH	mesyu	fish; sea creature (including crustacea)	fish; sea creature (including crustacea)	SN000927
 44	227	FISH	padó	fish; go fishing	fish; go fishing	SN001184
-46	2615	FLESH OR MEAT	wusi	meat	meat	SN002107
+45	227	FISH	yuk	pudding made of starchy vegetables or fruit such as taro, banana or pumpkin and enriched with coconut milk, fish, meat or island cabbage; [demonstrative, distal]	pudding made of starchy vegetables or fruit such as taro, banana or pumpkin and enriched with coconut milk, fish, meat or island cabbage	SN002195
+46	2615	FLESH OR MEAT				
 47	1441	FLY (MOVE THROUGH AIR)	ka	[second person dual]; say; [assertion marker]; fly; [complementizer]	fly	SN000565
 48	1441	FLY (MOVE THROUGH AIR)	yang	fly	fly	SN002136
 49	1301	FOOT				
@@ -63,12 +64,15 @@ ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	FORM	MEANING	SENSE	SENSE_ID
 63	1408	HEAR	ongane	hear; smell; feel	hear; smell; feel	SN001162
 64	1223	HEART	vevyos	heart	heart	SN001939
 65	1393	HORN (ANATOMY)				
-66	2272	HOT OR WARM	pyang	hot, warm	hot, warm	SN001319
+66	2272	HOT OR WARM				
 67	1209	I	nye	I; [first person singular]; aunt	I; [first person singular]	SN001122
 68	1417	KILL	tyuveni	kill (several people)	kill (several people)	SN001855
 69	1371	KNEE	bun lye	knee	knee	SN000192
-70	1410	KNOW (SOMETHING)	kuowilye	know; be able to	know; be able to	SN000689
+70	1410	KNOW (SOMETHING)				
 71	628	LEAF	ye	[third person dual]; [third person paucal]; to; leaf; a row of planted trees	leaf	SN002157
+72	1411	LIE (REST)	ge-kerase	lie (reduplication)	lie (reduplication)	SN000496
+73	1411	LIE (REST)	gerase	cheat; lie	cheat; lie	SN000501
+74	1411	LIE (REST)	geres	lie; be false; say something false	lie; be false; say something false	SN000502
 75	1411	LIE (REST)	sowe	lie	lie	SN001504
 76	1224	LIVER	ingyar	liver	liver	SN000549
 77	1203	LONG	ve-vyop	long (reduplication)	long (reduplication)	SN001938
@@ -90,12 +94,14 @@ ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	FORM	MEANING	SENSE	SENSE_ID
 93	1233	NIGHT	myaek	be night; be dark; night; secret	be night; be dark	SN001015
 94	1233	NIGHT	myaek	be night; be dark; night; secret	night	SN001016
 95	1221	NOSE	kus	nose	nose	SN000692
+96	1240	NOT	mwede	or; or not	or; or not	SN001004
 97	1240	NOT	saka	[assertion marker, negative]	[assertion marker, negative]	SN001358
 98	1493	ONE	swa	one; a	one; a	SN001534
 99	1493	ONE	tuswa	one, a	one, a	SN001830
 100	1493	ONE	wan	one	one	SN002016
-102	683	PERSON	vyanten	man; person	man;person	SN001984
-103	2108	RAINING OR RAIN	os	raining or rain	raining or rain	SN002226
+101	1493	ONE	yesukuo	one or more leaves of an arbitrary tree	one or more leaves of an arbitrary tree	SN002177
+102	683	PERSON				
+103	2108	RAINING OR RAIN				
 104	156	RED	pili	red	red	SN001232
 105	667	ROAD	seli	road	road	SN001408
 106	670	ROOT	luue	root	root	SN000824
@@ -115,6 +121,9 @@ ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	FORM	MEANING	SENSE	SENSE_ID
 120	1246	SMALL	kekei	baby; newborn child; small	small	SN000596
 121	1246	SMALL	sye	cut in a controlled movement with a long, slender blade or scissors; something; small	small	SN001547
 122	778	SMOKE (EXHAUST)	dokone yes	smoke (literally: 'pull smoke')	smoke (literally: 'pull smoke')	SN000354
+123	778	SMOKE (EXHAUST)	kuon	smoke; taboo; bitter; too salty; too spicy	smoke	SN000683
+124	778	SMOKE (EXHAUST)	smok	smoke	smoke	SN001493
+125	778	SMOKE (EXHAUST)	yes	smoke; turn	smoke	SN002172
 126	778	SMOKE (EXHAUST)	yeskuon	smoke	smoke	SN002175
 127	1442	STAND	tinyo	stand	stand	SN001751
 128	1430	STAR	misyu	star	star	SN000967
@@ -128,16 +137,21 @@ ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	FORM	MEANING	SENSE	SENSE_ID
 136	1214	THIS	en	eat ; eat; burn; this, [demonstrative]	this, [demonstrative]	SN000422
 137	1214	THIS	enke	this	this	SN000432
 138	1215	THOU				
-139	1205	TONGUE	miye	human tongue	human tongue	SN000972
+139	1205	TONGUE				
 140	1380	TOOTH	ep	honeyeater (a kind of bird); tooth	tooth	SN000440
 141	906	TREE	apas	a tree or post for fastening a pig for a ceremony	a tree or post for fastening a pig for a ceremony	SN000044
 142	906	TREE	lee	tree; wood; wooden stick	tree; wood; wooden stick	SN000740
+143	906	TREE	leevyó	tree (fern)	tree (fern)	SN000744
+144	906	TREE	levyuk	tree	tree	SN000758
+145	906	TREE	li-	tree	tree	SN000768
+146	906	TREE	lo-	tree	tree	SN000805
+147	906	TREE	lu-	tree	tree	SN000815
 148	906	TREE	vi	white man; new; young; tree	tree	SN001945
 149	1498	TWO	-kote	in two [resultative suffix]	in two [resultative suffix]	SN000659
 150	1498	TWO	ló	two	two	SN000839
 151	1498	TWO	tu	[distal]; throw something to someone ; throw; attack; too; hit; hit the tamtam; two	two	SN001812
 152	1443	WALK	oko	walk; move towards a certain direction without the help of a vehicle ; walk; travel	walk; move towards a certain direction without the help of a vehicle ; walk	SN001145
-153	948	WATER	wye	(fresh) water	(fresh) water	SN002110
+153	948	WATER				
 154	1212	WE				
 155	1236	WHAT	sewe	what; which	what; which	SN001433
 156	1236	WHAT	-vi	what	what	SN001946
