@@ -39,7 +39,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.12.1"
+            "dc:description": "3.11.7"
         },
         {
             "dc:title": "python-packages",
@@ -51,7 +51,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 137,
+            "dc:extent": 141,
             "tableSchema": {
                 "columns": [
                     {
@@ -232,7 +232,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 89,
+            "dc:extent": 79,
             "tableSchema": {
                 "columns": [
                     {

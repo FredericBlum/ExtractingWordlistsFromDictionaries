@@ -12,8 +12,8 @@ from pydictionaria.sfm_lib import Database as SFM, Entry
 from pydictionaria import sfm2cldf
 
 
-PC_PATTERN = re.compile('illustrations/(?P<stem>[^\.]+)\.txt')
-GE_PATTERN = re.compile('\$(?P<term>[a-z1-3][a-z]*)')
+PC_PATTERN = re.compile(r'illustrations/(?P<stem>[^\.]+)\.txt')
+GE_PATTERN = re.compile(r'\$(?P<term>[a-z1-3][a-z]*)')
 
 # RUN = 'PRE'
 RUN = 'FULL'
@@ -183,31 +183,31 @@ class Dataset(BaseDataset):
                 # add languages for both
                 for language in self.languages:
                     writer.add_language(
-                            ID=language["ID"],
-                            Name=language["Name"],
-                            Family=language["Family"],
-                            Glottocode=language["Glottocode"],
-                            )
+                        ID=language["ID"],
+                        Name=language["Name"],
+                        Family=language["Family"],
+                        Glottocode=language["Glottocode"])
 
                 args.log.info("added languages")
 
                 concepts = {}
                 for concept in self.conceptlists[0].concepts.values():
                     # print(concept)
-                    idx = concept.id.split("-")[-1] + "_" + slug(concept.concepticon_gloss)
+                    idx = '{}_{}'.format(
+                        concept.id.split("-")[-1],
+                        slug(concept.concepticon_gloss))
                     writer.add_concept(
                         ID=idx,
                         Name=concept.english,
                         Concepticon_ID=concept.concepticon_id,
-                        Concepticon_Gloss=concept.concepticon_gloss,
-                    )
+                        Concepticon_Gloss=concept.concepticon_gloss)
                     concepts[concept.concepticon_gloss] = idx
 
                 if RUN == "FULL":
                     new_index = 0
-                    for row in self.raw_dir.read_csv(
-                        "raw_filtermap.tsv", delimiter="\t", dicts=True
-                        ):
+                    mapped_rows = self.raw_dir.read_csv(
+                        "raw_filtermap.tsv", delimiter="\t", dicts=True)
+                    for row in mapped_rows:
                         if row["FORM"] != '':
                             new_index += 1
                             writer.add_forms_from_value(
@@ -217,5 +217,4 @@ class Dataset(BaseDataset):
                                 Meaning=row["MEANING"],
                                 Sense_ID=row["SENSE_ID"],
                                 Language_ID="Daakaka",
-                                Source="vonPrince2017"
-                            )
+                                Source="vonPrince2017")

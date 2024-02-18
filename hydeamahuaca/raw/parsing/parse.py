@@ -1,12 +1,10 @@
+#!/usr/bin/env python3
+
 """This module parses the Amahuaca dictionary into a csv-file."""
+
 import csv
 import re
 from collections import defaultdict
-
-entries = defaultdict()
-pos = ['(n.)', '(vt.)', '(vi.)', '(adv.)', '(adj.)', '(nf.)', '(conj.)', '(pn.)', '(vr.)',
-       '(int.)', '(n.):', '(vt.):', '(vi.):', '(adv.):', '(adj.):', '(nm.):', '(nf.):', '(conj.):',
-       '(pn.):', '(vr.):', '(rm.):', '(nm.).', ':', '(nm.)', '(nma.)']
 
 
 def split_string_on_pos(string, delim):
@@ -18,11 +16,21 @@ def split_string_on_pos(string, delim):
     return out
 
 
-with open("hyde_esp.txt", "r", encoding="utf8") as f:
-    i = 0
+def main():
+    entries = defaultdict()
+    pos = [
+        '(n.)', '(vt.)', '(vi.)', '(adv.)', '(adj.)', '(nf.)', '(conj.)',
+        '(pn.)', '(vr.)', '(int.)', '(n.):', '(vt.):', '(vi.):', '(adv.):',
+        '(adj.):', '(nm.):', '(nf.):', '(conj.):', '(pn.):', '(vr.):', '(rm.):',
+        '(nm.).', ':', '(nm.)', '(nma.)'
+    ]
 
-    for line in f.readlines():
-        if line not in ['\n', '']:
+    with open("hyde_esp.txt", "r", encoding="utf8") as f:
+        i = 0
+
+        for line in f:
+            if line in {'\n', ''}:
+                continue
             # Special condition for ill-formated entries
             if 'coragyps' in line:
                 IDX = i - 1
@@ -48,25 +56,28 @@ with open("hyde_esp.txt", "r", encoding="utf8") as f:
                 del entries[IDX]
             i += 1
 
+    output = [['GLOSS', 'POS', 'VALUE']]
+    # Splitting the entries
+    for i, item in enumerate(entries):
+        entry = entries[item].replace('\n', '')
+        entry = entry.replace('\t', ' ')
 
-output = [['GLOSS', 'POS', 'VALUE']]
-# Splitting the entries
-for i, item in enumerate(entries):
-    entry = entries[item].replace('\n', '')
-    entry = entry.replace('\t', ' ')
+        entry = split_string_on_pos(entry, pos)
 
-    entry = split_string_on_pos(entry, pos)
+        key = entry[0].strip()
+        sep = entry[1].replace(':', '') if entry[1] != ':' else ''
+        forms = entry[2] if entry[2] != ':' else entry[3]
+        forms = forms.replace('.', '')
+        forms = forms.strip()
+        forms = forms.split(', ')
 
-    key = entry[0].strip()
-    sep = entry[1].replace(':', '') if entry[1] != ':' else ''
-    forms = entry[2] if entry[2] != ':' else entry[3]
-    forms = forms.replace('.', '')
-    forms = forms.strip()
-    forms = forms.split(', ')
+        for form in forms:
+            output.append([key, sep, form])
 
-    for form in forms:
-        output.append([key, sep, form])
+    with open('../parsed_raw.tsv', 'w', encoding="utf8") as file:
+        writer = csv.writer(file, delimiter='\t')
+        writer.writerows(output)
 
-with open('../parsed_raw.tsv', 'w', encoding="utf8") as file:
-    writer = csv.writer(file, delimiter='\t')
-    writer.writerows(output)
+
+if __name__ == '__main__':
+    main()
