@@ -32,10 +32,10 @@ cd vonprincedaakaka
 In this repository, you find three main folder: raw/, etc/, and cldf/. The raw-folder contains the raw data before mapping and pre-processing, the etc/ fodler the metadata used during the converison, and the cldf/-folder the converted files using the Cross-Linguistic Data Formats (CLDF). To re-run the mapping of concepts, please use the following code:
 
 ```CLI
-conceptlist --data=cldf/Dictionary-metadata.json --conceptlist=Swadesh-1955-100 --concepticon-version=v3.1.0 --language=en --output=raw/raw_mapped.tsv
+conceptlist --data=cldf/Dictionary-metadata.json --conceptlist=Swadesh-1955-100 --concepticon-version=v3.1.0 --language=en --output=raw/raw_automap.tsv
 ```
 
-You can now run the final CLDF conversion.
+The result are the automatically mapped concepts. We recommend to now run a manual check of all mappings, since there are some cases which can be difficult to map due to homonymy (e.g. 'bark' or 'lie'). We have done such a manual check and saved the file as `raw_filtermap.tsv`. This is the file that we use as an input to the final CLDF run.
 
 ```CLI
 cldfbench lexibank.makecldf cldfbench_daakaka.py --concepticon-version=v3.1.0 --glottolog-version=v4.8 --clts-version=v2.2.0
@@ -51,9 +51,14 @@ python parse.py
 cd ../../
 ```
 
-You have now the data as csv-file, which you can convert to CLDF. Again, you can run both the mapping of the conceptlist and the conversion to CLDF using the following commands:
+You have now the data as csv-file, which you can convert to CLDF. Again, you can run the mapping of the conceptlist with the following command.
 
 ```CLI
-conceptlist --data=cldf/Dictionary-metadata.json --conceptlist=Swadesh-1955-100 --concepticon-version=v3.1.0 --language=es --output=raw/raw_mapped.tsv
+conceptlist --data=cldf/Dictionary-metadata.json --conceptlist=Swadesh-1955-100 --concepticon-version=v3.1.0 --language=es --output=raw/raw_automap.tsv
+```
+
+Fllowing our workflow, we recommend to create a file that contains the manual check (`raw_filtermap.tsv`) and run the final CLDF conversion.
+
+```CLI
 cldfbench lexibank.makecldf lexibank_hydeamahuaca.py --concepticon-version=v3.1.0 --glottolog-version=v4.8 --clts-version=v2.2.0
 ```
