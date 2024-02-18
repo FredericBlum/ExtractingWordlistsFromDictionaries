@@ -206,7 +206,7 @@ class Dataset(BaseDataset):
                 if RUN == "FULL":
                     new_index = 0
                     for row in self.raw_dir.read_csv(
-                        "raw_mapped.tsv", delimiter="\t", dicts=True
+                        "raw_filtermap.tsv", delimiter="\t", dicts=True
                         ):
                         if row["FORM"] != '':
                             new_index += 1

@@ -83,7 +83,7 @@ class Dataset(BaseDataset):
 
                 new_index = 0
                 for row in self.raw_dir.read_csv(
-                        "raw_mapped.tsv", delimiter="\t", dicts=True
+                        "raw_filtermap.tsv", delimiter="\t", dicts=True
                         ):
 
                     if row["FORM"] != '':
