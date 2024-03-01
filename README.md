@@ -6,13 +6,14 @@ This repository contains all the data and code that was used for the initial sub
 
 ## Necessary packages
 
-We include the `getcl`-package in this repository during the review process. Please install all the necessary packages using the following code:
+All the code makes the general assumption that you have Python and Git installed on your computer. As for the project-specific requirements, we lead you through the installation process. We include the `getcl`-package in this repository during the review process. Please install all the necessary packages using the following code:
 
 ```shell
 pip install -r requirements.txt
 pip install getcl/
 ```
 
+On Windows, you might need to prefix the `pip` command with `python -m`.
 In order to run the code, you will need local copies of CLTS, Concepticon, and Glottolog. To prepare those reference catalogues, plesae run the followign code and follow the interactive prompts:
 
 ```shell
