@@ -57,7 +57,7 @@ You have now the data as csv-file, which you can convert to CLDF. Again, you can
 conceptlist --data=cldf/Dictionary-metadata.json --conceptlist=Swadesh-1955-100 --concepticon-version=v3.2.0 --language=es --output=raw/raw_automap.tsv
 ```
 
-Fllowing our workflow, we recommend to create a file that contains the manual check (`raw_filtermap.tsv`) and run the final CLDF conversion.
+Following our workflow, we recommend to create a file that contains the manual check (`raw_filtermap.tsv`) and run the final CLDF conversion.
 
 ```shell
 cldfbench lexibank.makecldf lexibank_hydeamahuaca.py --concepticon-version=v3.2.0 --glottolog-version=v5.0 --clts-version=v2.2.0
