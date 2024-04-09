@@ -43,14 +43,28 @@ cldfbench lexibank.makecldf lexibank_hydeamahuaca.py --concepticon-version=v3.1.
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
 - **Varieties:** 1
-- **Concepts:** 86
-- **Lexemes:** 146
+- **Concepts:** 90
+- **Lexemes:** 143
 - **Sources:** 1
-- **Synonymy:** 1.70
+- **Synonymy:** 1.59
 - **Invalid lexemes:** 0
-- **Tokens:** 829
-- **Segments:** 36 (0 BIPA errors, 0 CLTS sound class errors, 36 CLTS modified)
-- **Inventory size (avg):** 36.00
+- **Tokens:** 812
+- **Segments:** 35 (0 BIPA errors, 0 CLTS sound class errors, 35 CLTS modified)
+- **Inventory size (avg):** 35.00
+
+# Contributors
+
+Name | GitHub user | Description | Role |
+--- | --- | --- | --- |
+Sylvia Hyde | | original collection and analysis of data | Author |
+Frederic Blum | @Tarotis | CLDF conversion | Other |
+Johannes Englisch | @johenglisch | CLDF conversion | Other |
+Johann-Mattis List | @LinguList| CLDF conversion | Other |
+Rik van Gijn | @rikvangijn | OCR Digitilization | Other |
+Alba Hermida Rodriguez | @hermidaahr | OCR Digitilization | Other |
+
+
+
 
 ## CLDF Datasets
 

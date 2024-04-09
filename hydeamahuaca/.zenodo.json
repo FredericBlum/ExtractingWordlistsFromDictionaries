@@ -5,8 +5,33 @@
         "cldf:Wordlist",
         "linguistics"
     ],
-    "creators": [],
-    "contributors": [],
+    "creators": [
+        {
+            "name": "Sylvia Hyde"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Frederic Blum",
+            "type": "Other"
+        },
+        {
+            "name": "Johannes Englisch",
+            "type": "Other"
+        },
+        {
+            "name": "Johann-Mattis List",
+            "type": "Other"
+        },
+        {
+            "name": "Rik van Gijn",
+            "type": "Other"
+        },
+        {
+            "name": "Alba Hermida Rodriguez",
+            "type": "Other"
+        }
+    ],
     "communities": [
         {
             "identifier": "lexibank"
